@@ -1,6 +1,7 @@
-#' Plot Snow Cover Changes Over Time
-#' @rdname plot_snow_cover
-#' This function plots the changes in snow cover over time for a specified country using hystogram and trend line
+#' plot_snow_cover
+#'
+#' #Plot Snow Cover Changes Over Time
+#' #This function plots the changes in snow cover over time for a specified country using hystogram and trend line
 #'
 #' @param snow_cover_area A numeric vector containing the snow cover area data in square kilometers for each day.
 #' @param dates A vector of class Date containing the dates corresponding to each day.

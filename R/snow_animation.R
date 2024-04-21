@@ -1,18 +1,18 @@
-#' @rdname snow_animation
+#' snow_animation
 #'
-#' Create a GIF animation of snow cover changes over time
-#' This function creates a GIF animation illustrating the changes in snow cover over time using a series of raster files.
+#' #Create a GIF animation of snow cover changes over time
+#' #This function creates a GIF animation illustrating the changes in snow cover over time using a series of raster files
 #'
-#' @param raster_files_snow A character vector containing the file paths of raster layers representing snow cover for each day.
-#' @param date A character vector of dates corresponding to each raster image.
-#' @param Country_name A character string specifying the name of the country.
+#' @param raster_files_snow A character vector containing the file paths of raster layers representing snow cover for each day
+#' @param date A character vector of dates corresponding to each raster image
+#' @param Country_name A character string specifying the name of the country
 #'
-#' @return Nothing. The GIF animation is saved as "snow_animation.gif".
+#' @return Nothing. The GIF animation is saved as "snow_animation.gif"
 #'
 #' @details
 #' This function takes a list of raster files representing snow cover for each date and creates a GIF animation
 #' to visualize the changes in snow cover over time. The animation displays one frame for each date, with each frame
-#' showing the snow cover image for that date.
+#' showing the snow cover image for that date
 #'
 #' @importFrom raster raster
 #' @importFrom animation saveGIF

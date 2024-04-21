@@ -1,6 +1,6 @@
-#' Crop raster files by country boundary
-#' @rdname crop_rasters
-#' This function crops raster files based on the boundary of a country
+#' crop_rasters
+#'
+#' #This function crops raster files based on the boundary of a country
 #'
 #' @param raster_files A character vector containing paths to the raster files to be cropped
 #' @param country_boundary The boundary of the country as a SpatialPolygonsDataFrame or sf object

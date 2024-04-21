@@ -1,8 +1,8 @@
-#' Download daily snow cover images from the DLR Global Snow Product (GSP) service
-#' @rdname download_snow_data
-#' This function downloads daily snow cover images from the specified start date to the specified end date.
+#' Download Snow Data
 #'
-#' This function generates URLs for downloading snow cover data for each date in the specified range.
+#' #This function downloads daily snow cover images from the specified start date to the specified end date.
+#'
+#' #This function generates URLs for downloading snow cover data for each date in the specified range.
 #'
 #' @param  start_date The start date in the format as.Date("YYYY-MM-DD")
 #' @param  end_date The end date in the format as.Date("YYYY-MM-DD")

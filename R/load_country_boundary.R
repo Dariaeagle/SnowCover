@@ -1,8 +1,8 @@
-#' Load the boundary of a specific country from a map object
-#' @rdname load_country_boundary
+#' load_country_boundary
 #'
-#' This function extracts the boundary geometry of a specific country from a map
-#' object and returns it
+#' #Load the boundary of a specific country from a map object
+#' #This function extracts the boundary geometry of a specific country from a map
+#' #object and returns it
 #'
 #'
 #' @param map A spatial object containing country boundaries, such as a 'sf' object
