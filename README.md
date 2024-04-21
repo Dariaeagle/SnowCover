@@ -15,7 +15,7 @@ You can install the development version of SnowCover from [GitHub](https://githu
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("Dariaeagle/Snow_Cover")
+devtools::install_github("Dariaeagle/SnowCover")
 library(SnowCover)
 ```
 
