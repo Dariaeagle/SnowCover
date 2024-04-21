@@ -2,7 +2,7 @@
 % Please edit documentation in R/snow_animation.R
 \name{create_snow_animation}
 \alias{create_snow_animation}
-\title{snow_animation}
+\title{create_snow_animation}
 \usage{
 create_snow_animation(raster_files_snow, date, country_name)
 }

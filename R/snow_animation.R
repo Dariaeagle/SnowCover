@@ -1,4 +1,4 @@
-#' snow_animation
+#' create_snow_animation
 #'
 #' #Create a GIF animation of snow cover changes over time
 #' #This function creates a GIF animation illustrating the changes in snow cover over time using a series of raster files
