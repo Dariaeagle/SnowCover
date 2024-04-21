@@ -173,10 +173,10 @@ legend("topright", legend = legend_labels, fill = palette, title = "Snow coverag
 
 7. Create a GIF Animation of Snow Cover Changes Over Time
 
-To create a GIF animation illustrating the changes in snow cover over time, you can use the `snow_animation` function. This function takes a list of raster files representing snow cover for each date and creates a GIF animation to visualize the changes in snow cover over user-specified time period. `Dates` are extracted from the file names, and the animation displays one frame for each date, with each frame showing the snow cover image for that date.
+To create a GIF animation illustrating the changes in snow cover over time, you can use the `create_snow_animation` function. This function takes a list of raster files representing snow cover for each date and creates a GIF animation to visualize the changes in snow cover over user-specified time period. `Dates` are extracted from the file names, and the animation displays one frame for each date, with each frame showing the snow cover image for that date.
 
 ```{r example}
-snow_animation(raster_files_snow, date, country_name)
+create_snow_animation(raster_files_snow, date, country_name)
 ```
 
 ![Snow Animation](Images/snow_animation.gif)
