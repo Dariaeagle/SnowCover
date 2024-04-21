@@ -2,7 +2,7 @@
 
 <!-- badges: start -->
 <!-- badges: end -->
-Welcome to the SnoCover R package!
+Welcome to the SnowCover R package!
 This package is designed to help you analyze snow cover data and visualize changes in snow cover over time.
 
 Autor: Daria Ushakova
@@ -15,7 +15,8 @@ You can install the development version of SnowCover from [GitHub](https://githu
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("Dariaeagle/SnowCover")
+devtools::install_github("Dariaeagle/Snow_Cover")
+library(SnowCover)
 ```
 
 ```
