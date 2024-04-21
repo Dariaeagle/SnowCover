@@ -1,12 +1,15 @@
 Package: SnowCover
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
-Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Type: Package
+Title: Analyzing Global Snow Cover Data
+Version: 0.1.0
+Author: Daria Ushakova
+Maintainer: Daria Ushakova <daria.ushakova@stud-mail.uni-wuerzburg.de>
+Description: The package provides functions to download, process and visualize snow cover data from the MODIS satellite. It includes functions to download and process the data, as well as to visualize the snow cover data in a ggplot2 plot. The package also includes a function to create an animation of the snow cover data over time.
+License: MIT + file LICENSE
 Encoding: UTF-8
+LazyData: true
+Imports: httr, sf, raster, terra, ggplot2, dplyr, gganimate, purrr, rnaturalearth, scales, animation
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
+Scripts: my_script.R
+
