@@ -23,7 +23,7 @@ library(SnowCover)
 
 ## Usage
 
-- `snow_daily_images`: Download daily snow cover images from a specified source.
+- `download_snow_data`: Download daily snow cover images from a specified source.
 - `load_country_boundary`: Load the boundary of a specified country for analysis.
 - `crop_rasters`: Crop raster images to a specified boundary.
 - `binary_mask`: Apply a binary mask to cropped raster images.
@@ -45,7 +45,7 @@ start_date <- as.Date("2023-01-01")
 end_date <- as.Date("2023-01-31")
 save_dir <- "path/to/save/directory"
 
-snow_daily_images(start_date, end_date, save_dir)
+download_snow_data(start_date, end_date, save_dir)
 
 ```
 
